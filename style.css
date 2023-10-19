@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* Header styles */
+header {
+    background: #212121; /* Use Platinum color */
+    color: #212121; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the logo image in the left section of the header */
+.header-left img {
+    width: 200px; /* Set the desired width for your logo */
+}
+
+/* Style the navigation menu in the right section of the header */
+.header-right nav ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.header-right nav li {
+    display: inline;
+}
+
+.header-right nav a {
+    text-decoration: none;
+}
+
+.menu-container {
+    border: 2px solid #ffffff; /* Add a white outline around the menu container */
+    border-radius: 5px; /* Optional: Add rounded corners for the container */
+}
+body {
+    background-color: #e8e8e8; /* Use Platinum color for the body background */
+    margin: 0px; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Specify a font-family */
+    line-height: 1.6; /* Adjust line height for readability */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a, nav a:visited {
+    color: #e8e8e8; /* Default text color for links */
+    transition: color 0.3s ease; /* Add a smooth transition for the color change */
+}
+
+nav a:hover {
+    color: #800020; /* Change text color to Platinum on hover */
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Section styles */
+section {
+    margin: 30px;
+}
+
+/* Footer styles */
+footer {
+    background: #212121;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+}
+
+q {
+    font-style: italic; /* Italicize the text */
+    border-left: 4px solid #212121; /* Add a left border for emphasis */
+    margin: 20px 0; /* Add some spacing */
+    padding: 10px; /* Add padding for better readability */
+}
+
+#tagline {
+    color:#ffffff;
+    font-size: 1.5em;
+    padding-left: 25px;
+}
